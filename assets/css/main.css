@@ -100,7 +100,6 @@ input, select, textarea {
   border-bottom-right-radius: 20px;
 }
 .active{
-  background-color:transparent;
   color:#ffcd5c !important;
 }
 
