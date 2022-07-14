@@ -3367,7 +3367,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #ffc400;
+		background-color: #00bfff;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
