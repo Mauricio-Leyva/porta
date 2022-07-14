@@ -18,6 +18,21 @@
 			  $('.ir-abajo').click(function(){ $('body,html').animate({ scrollTop:'1000px' },1000); });
 			}
 		</script>
+		
+		<style>
+			/*Flecha para hacer la pagina hacia arriba*/
+			.ir-arriba{
+			  display:none;
+			  background-repeat:no-repeat;
+			  font-size:20px;
+			  color:black;
+			  cursor:pointer;
+			  position:fixed;
+			  bottom:10px;
+			  right:10px;
+			  z-index:2;
+			}
+		</style>
 	</head>
 	
 	<a class="ir-arriba"  javascript:void(0) title="Volver arriba">
