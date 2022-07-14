@@ -114,7 +114,7 @@ input, select, textarea {
   border-bottom-right-radius: 20px;
 }
 .active{
-  color:#ffcd5c !important;
+  color: red !important;
 }
 
 .dark-mode{
