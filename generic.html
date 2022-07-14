@@ -6,33 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		
-		<script>
-			$(document).ready(function(){ irArriba(); }); //Hacia arriba
-
-			function irArriba(){
-			  $('.ir-arriba').click(function(){ $('body,html').animate({ scrollTop:'0px' },1000); });
-			  $(window).scroll(function(){
-			    if($(this).scrollTop() > 0){ $('.ir-arriba').slideDown(600); }else{ $('.ir-arriba').slideUp(600); }
-			  });
-			  $('.ir-abajo').click(function(){ $('body,html').animate({ scrollTop:'1000px' },1000); });
-			}
-		</script>
-		
-		<style>
-			/*Flecha para hacer la pagina hacia arriba*/
-			.ir-arriba{
-			  display:none;
-			  background-repeat:no-repeat;
-			  font-size:20px;
-			  color:black;
-			  cursor:pointer;
-			  position:fixed;
-			  bottom:10px;
-			  right:10px;
-			  z-index:2;
-			}
-		</style>
 	</head>
 	
 	<a class="ir-arriba"  javascript:void(0) title="Volver arriba">
@@ -42,7 +15,7 @@
   </span>
 </a>
 	
-	<body class="is-preload">
+	<body class="is-preload" style="background-color:blue">
 
 		<!-- Header -->
 			<header id="header">
