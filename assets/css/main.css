@@ -160,7 +160,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffc400;
+		background: blue;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
