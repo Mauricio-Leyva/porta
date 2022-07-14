@@ -183,11 +183,3 @@
 			});
 
 })(jQuery);
-
-window.onscroll = function(){
-	if(document.document.Element.scrollTop > 100){
-		document.querySelector(".go-top-container").classlist.add("show");
-	}else{
-		document.querySelector(".go-top-container").classlist.remove("show");
-	}
-}
