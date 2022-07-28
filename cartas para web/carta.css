@@ -30,6 +30,7 @@ header{
     align-items: center;
     padding: 20px 20%;
     background-color: white;
+    border-radius: 10px;
 }
 
 .nav_links{
