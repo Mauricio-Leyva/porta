@@ -177,6 +177,6 @@ body{
     .blog-post_img{
         min-width: 100%;
         max-width: 100%;
-        transform: translate(0, -8rem);
+        transform: translate(0, -2rem);
     }
 }
