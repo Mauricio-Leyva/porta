@@ -1,0 +1,40 @@
+<!--By Mauricio Leyva Gorrochategui-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Alertas/css/alertify.min.css">
+    <link rel="stylesheet" href="Alertas/css/themes/default.min.css">
+    <script src="Alertas/alertify.min.js"></script>
+    <title>Pong by Mauricio</title>
+</head>
+<body id="cuerpo">
+    <audio id="audio" controls>
+        <source type="audio/mp3" src="/Sonidos/gaming-8bit.mp3">
+    </audio>
+    <p style="color: blue; text-align: center;">Controles de jugador 1: W, S</p><br>
+    <p style="color: blue; text-align: center;">Controles de jugador 2: Flechas arriba y abajo de teclado</p><br>
+    <p style="color: blue; text-align: center;">Ganas con 10 puntos!</p>
+    <div class="container">
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <br>
+
+    <form id="lol" action="">
+        <label for="">Introduce un color para el fondo (en ingles):</label>
+        <input type="text" size="15" id="colorFondo">
+        <input type="button" id="cambiarColor" value="Cambiar">
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>

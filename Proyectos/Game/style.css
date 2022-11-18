@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+@font-face {
+    font-family: Atari;
+    src: url(Fuente/AtariSmall.ttf);
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: Atari;
+}
+
+#audio{
+    display: none
+    }
+
+/*body {
+    background-color: #33FF86;
+}*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(247, 203, 203);
+}
+
+#lol {
+    justify-content: center;
+    text-align: center;
+}
+
+#audio {
+    display: none;
+}
